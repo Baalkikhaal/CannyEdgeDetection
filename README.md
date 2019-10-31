@@ -21,6 +21,23 @@ Create a virtual environment with the following dependencies. If you need to pac
 
 	pip install opencv-python matplotlib PyQt5 fbs
 
+## Linux
+
+A repeatable installation with Python version 3.6.8 with the dependencies listed in `requirements-linux.txt` is possible with
+
+ 	(env-cv2) $ pip install -r requirements-linux.txt
+
+![Pip requirements - linux](images/RequirementsVenvLinux.png)
+
+## Windows
+
+Similarly for Windows with `requirements-windows.txt`
+
+	(env-cv2) $ pip install -r requirements-windows.txt
+
+![Pip requirements - windows](images/RequirementsVenvWindows.png)
+
+
 ---
 
 # Preview
@@ -45,6 +62,10 @@ It is a multistage algorithm involving
 # TODO
 
 The app crashes when the filepath does not exist. Need to incorporate exception handling
+
+The freezing of windows version has errors.
+
+![App freezing](images/fbsFreezeWindowsError.png)
 
 ---
 

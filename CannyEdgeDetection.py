@@ -66,6 +66,8 @@ from matplotlib.figure import Figure
 
 import cv2
 
+import os, os.path
+
 app = QApplication([])    # instantiate a PyQt App
 
 # create a Widget to hold all the upcoming subwidgets
@@ -97,7 +99,9 @@ input_layout = QVBoxLayout()
 
 ###     LineEdit for reading image filepath
 read_filepath   = QLineEdit()
-read_filepath.setText("//home/fubar/Documents/PythonProjects/PyQt5/App-01-CannyEdgeDetection/images/wololo.jpg")
+read_filepath.setText(os.path.abspath(os.path.join(os.curdir,'images','wololo.jpg')))
+#read_filepath.setText('/home/fubar/Documents/GITprojects/MyGitProjects/CannyEdgeDetection/images/wololo.jpg')
+
 filepathLabel = QLabel("Image filepath:\nPress Enter to read")
 filepathLabel.setBuddy(read_filepath)
 

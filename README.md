@@ -25,7 +25,7 @@ Create a virtual environment with the following dependencies. If you need to pac
 
 # Preview
 
-![CannyEdgeApp](images/previewCannyEdgeApp.png)
+![CannyEdgeApp](images/CannyEdgeDemo.gif)
 
 ---
 
